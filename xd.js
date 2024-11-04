@@ -57,3 +57,6 @@ function clothingAdvice(temperature, isRaining) {
     }
     return advice;
 }
+
+console.log(fibonacci(22));
+console.log(power(5,5));
