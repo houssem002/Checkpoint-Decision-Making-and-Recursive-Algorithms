@@ -1,4 +1,6 @@
+
 //Recursion fiboncacci
+
 function fibonacci(n) {
     if (n <= 1) {
         return n;
@@ -40,6 +42,13 @@ function ticketPricing(age){
     } else {
         return "Invalid age entered.";
     }
+}
+
+// is leap year
+function isleapyear(year){
+    if(year%4===0&&year%100!==0 || year%400===0)
+        return true
+    return false
 }
 
 //Weather Clothing Adviser
